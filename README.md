@@ -1,125 +1,121 @@
-#怪物探索 - 適地性寵物養成遊戲APP
+# Monster Exploration - A Location-based Pet Simulation Game App
 
-##遊戲啟發
-2015九月時，在"Pokemon GO"概念影片的啟發下，我們決定以同時能夠適用於Android與iOS系統的適地性寵物養成遊戲作為乘載輔大深厚內容的容器，
-透過GPS定位的方式探索整個輔大校園，可以一邊了解輔大的故事與文化，同時也可以抓取可愛且具特色的寵物，藉由養成寵物的方式可增加與他人交流的機會。
+## Inspiration
+In September 2015, inspired by the concept video of 'Pokemon GO', we decided to create a location-based pet simulation game that could be used on both Android and iOS systems. This game serves as a vessel for showcasing the rich content of Fu Jen Catholic University. Through GPS positioning, players can explore the entire Fu Jen campus, learn about its stories and culture, and catch unique and adorable pets. The pet-raising mechanics also provide opportunities for increased social interaction.
 
 
-##遊戲故事
-遊戲故事是建構在輔大的三大組織，聖言會、耶穌會及中國聖職上，三大組織分別對應到勇氣、希望、自由三大陣營，勇氣陣營擁有火之力的傳承，
-希望陣營則發展出了木之力，自由陣營一直都是水之力的代表，而輔大地區也設定成古代的文明遺跡--奧斯蘭，這裡擁有大量充滿力量的納特斯礦石，
-孕育出了這裡獨特的生命，稱之為怪物精靈。
+## Story
+The game's story is built upon the three major organizations at Fu Jen Catholic University: the Society of the Divine Word, the Society of Jesus, and the Chinese clergy. These three organizations correspond to the three factions of Courage, Hope, and Freedom, respectively. The Courage faction inherits the power of fire, the Hope faction develops the power of wood, and the Freedom faction has always represented the power of water. The Fu Jen region is also set as an ancient civilization ruin - Osran, which is rich in powerful Natus minerals. These minerals have given birth to unique life forms here, known as monster spirits.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/御三家.png "御三家")
 
-幾百年來，祖先們在這塊土地上建立了文明，與精靈們共存共榮並堅持著善與愛的信仰，世世代代的傳承下去，但是過多的力量卻招致這裡的毀滅，
-貪心的人們不斷地尋找著納特斯礦脈，不計一切代價挖取純度高的礦石，終於在城邦的中心發現了納特斯礦石的核心，正當欣喜若狂的愚人們準備大量開採時，
-納特斯核心卻因為過分的動搖而開始爆走，城邦中心出現了大量可怕又強大的怪物，從此這裡變為一片廢墟，只剩一片荒蕪與空虛，
-三大陣營對此都各自展開了研究，而玩家便是扮演冒險者的腳色，投身自己所喜好的陣營盡情的探索輔大地區與精靈怪物們一起生活，
-一同歡笑、一同成長，寫下屬於自己的故事。
+For hundreds of years, our ancestors have built a civilization on this land, coexisting and thriving with the spirits, and upholding the belief in goodness and love. This tradition has been passed down from generation to generation. However, an excess of power led to the destruction of this place. Greedy individuals tirelessly sought the Natus ore veins, extracting high-purity ores at any cost. When the core of the Natus mineral was finally discovered at the center of the city-state, the overjoyed fools prepared to mine it on a large scale. However, the Natus core began to go berserk due to excessive disturbances, and a large number of terrifying and powerful monsters appeared in the city center. Since then, this place has become a ruin, leaving only desolation and emptiness.
+
+The three factions each began their research on this. Players take on the role of adventurers, joining the faction they prefer and exploring the Fu Jen region to their heart's content. They live with the monster spirits, laughing and growing together, writing their own stories.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/校園地圖.png "校園地圖")
 
 
-##遊戲概念影片
+## Trailer
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/CL-RnqUOTXY/0.jpg)](http://www.youtube.com/watch?v=CL-RnqUOTXY)
 
-##遊戲主介面
-遊戲主介面為地圖的形式，地圖下方有個探索鍵
->Floating Action Button為參照Google Material design所設計的
+## Interface
+The main interface of the game is in the form of a map, with an 'Explore' button at the bottom.
+
+> The Floating Action Button is designed with reference to Google's Material Design.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/主畫面.gif "遊戲主介面")
 
 
-##探索
-點擊探索鍵後，會先抓取使用者的所在位置，並在周圍出現怪物點
-不同顏色的怪物點代表不同的稀有度
+## Explore
+After clicking the 'Explore' button, the game will first capture the user's location and monster points will appear around it. Different colors of monster points represent different levels of rarity.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/探索.gif "探索")
 
 
-##戰鬥介面
-規則採用一對一的回合制戰鬥
+## Battle
+The game adopts a one-on-one turn-based battle system.
 
-技能發動需使用MP，每回合會獲得兩個MP
+Activating skills requires MP, and you gain two MP each turn.
 
-有逃走鍵可以使用
->寵物圖均為原創設計
->按鈕為參照Google Material design所設計的
+There is an option to run away.
+
+> The pet images are all original designs.
+> The buttons are designed with reference to Google's Material Design.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/戰鬥.gif "戰鬥介面")
 
 
 
-##單人世界的道館
-在單人模式下的道館內容為校園介紹及遊戲的tips，
+## Gym on Single Player Mode
+In single-player mode, the gym content includes campus introductions and game tips.
 
-走訪完所有的道館即可進入多人模式
+Once all gyms have been visited, you can enter multiplayer mode.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/單人.gif "單人世界的道館")
 
-在特定道館會有360度VR全景圖可以體驗
+In specific gyms, there will be 360-degree VR panoramic images for users to experience.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/VR.gif "VR")
 
-##多人世界的道館
-在多人模式下的道館可以對道館館主進行戰鬥，
+## Gym on Multiplayer Mode
+In multiplayer mode, you can battle the gym leaders in the gyms.
 
-透過貢獻不同數量的輔大三寶來決定關卡的難易度。
+The difficulty level of the stages is determined by the number of 'Fu Jen Treasures' you contribute.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/多人.png "多人世界的道館")
 
-##寵物中心
-在寵物中心可以將玩家背包裡的寵物回滿血
+## Pet Center
+In the Pet Center, players can fully restore the health of the pets in their backpacks.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/寶貝中心.gif "寵物中心")
 
-##寵物背包
+## Pet Backpacks
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/背包.png "寵物背包")
 
-##強化頁面
-使用經驗石可以強化寵物
+## Enhancement System
+Pets can be enhanced using experience stones.
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/強化.gif "強化")
 
-##商店
-購買道具的地方
+## Store
+Place to Purchase Items
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/商店.png "商店")
 
 
-##完整DEMO影片
+## Full Demo Video
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/An_2t2BB9z8/0.jpg)](http://www.youtube.com/watch?v=An_2t2BB9z8)
 
 
 
-##遊戲架構
+## System Architecture
 
-資料庫同時採用SQL和NoSQL
+The database uses both SQL and NoSQL.
 
-地圖採用能高度客製化的Mapbox
+The map uses the highly customizable Mapbox.
 
 
 ![alt text](https://github.com/KevinHu2014/RN-IceSpeed/blob/master/Screenshots/架構圖.png "架構圖")
 
 
-##安裝教學
+## Installation
 
 1. `git clone https://github.com/KevinHu2014/RN-IceSpeed.git`
 2. `npm install ` or `yarn add`
 3. `react-native run-android`
 
 
-##未完成的部份
+## Upcoming
 
-+ 新增新手教學
-+ 新增任務系統
-+ 多人共鬥機制
-+ 更新招式特效
-+ iOS版的遊戲
++ Added tutorial for beginners
++ Added quest system
++ Multiplayer co-op mechanism
++ Updated move special effects
++ iOS version of the game
 
 
 
